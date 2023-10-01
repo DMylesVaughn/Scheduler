@@ -23,8 +23,8 @@
     THEN the saved events persist
 
 ## Images
-The following image is the initial load page for the Scheduler.
-    ![Load Page] (./assets/images/Load_Page.png)
+    The following image is the initial load page for the Scheduler.
+        ![Work Schedule Display] (./assets/images/Initial_Load_Page.png)
 
 ## Deployed Link
 
