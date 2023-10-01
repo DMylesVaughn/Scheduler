@@ -1,10 +1,11 @@
 // this is my time date on top of the page.  Added a setInterval so timje is current
-var currentHour = new Date();
-setInterval (upDate, 1000);
+var date = new Date();
 function upDate() {
-  const date = new Date();
+  var date = new Date();
   $("#currentDay").text(date);
 }
+setInterval (upDate, 1000);
+var currentHour = date.getHours();
 // Function to save input from us to local storage
 $(document).ready(function () {
   $(".saveBtn").on("click", function () {
